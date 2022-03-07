@@ -7,6 +7,8 @@
     "server:prod": "cross-env NODE_ENV=production ts-node ./server"
   },
   "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
     "@types/compression": "^1.7.2",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.19",
