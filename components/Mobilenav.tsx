@@ -127,7 +127,7 @@ const MobileNavigation = ({
           <div className="relative flex flex-col w-full max-w-[17.5rem] 2xs:max-w-[19rem] xs:max-w-[24rem]">
             <a
               // href={customer ? "/account" : "/account/login"}
-              href={"/account/login"}
+              href={"/about"}
               className="flex items-center min-h-[50px] w-full bg-red hover:bg-red-dark"
             >
               {/* <Logo
@@ -137,7 +137,7 @@ const MobileNavigation = ({
                 color="#fff"
               /> */}
               <span className="text-lg text-white ">
-                Hello, "Sign In"
+                Hello, Click me to do a full page navigation.
               </span>
             </a>
 
