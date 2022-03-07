@@ -20,8 +20,8 @@ function Page() {
       <ul>
         <li>Rendered to HTML.</li>
         <button onClick={() => setOpen1(true)}>Open Nav</button>
-        <button onClick={() => setOpen2(true)}>Open Nav No headless</button>
-        <button onClick={() => setOpen3(true)}>Open Nav No headless - 2</button>
+        <button onClick={() => setOpen2(true)}>Open Nav No headless - Hidden With CSS</button>
+        <button onClick={() => setOpen3(true)}>Open Nav No headless - Removed From DOM</button>
         <li>
           Interactive. <Counter />
         </li>
